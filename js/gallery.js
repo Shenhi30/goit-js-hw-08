@@ -91,6 +91,6 @@ galleryBox.addEventListener("click", (e) => {
 
     const linkPhoto = e.target.dataset.source
 
-    const instance = basicLightBox.create(`<img src="${linkPhoto}">`)
+    const instance = basicLightbox.create(`<img src="${linkPhoto}">`)
     instance.show()
 })
