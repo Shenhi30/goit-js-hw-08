@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 24px 156px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.gallery {
+    max-width: 1128px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.gallery-image {
+    flex-basis: calc(33.33% - 24px);
+}
